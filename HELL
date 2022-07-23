@@ -21,7 +21,7 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _hell_repo () {
     local hrepo
-    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lzYWFjUmV2b2x0ei9QbHVnaW5z" | base64 -d`
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL0lzYWFjUmV2b2x0ei9QbHVnaW5zLw==" | base64 -d`
     echo "$rlink"
 }
 
